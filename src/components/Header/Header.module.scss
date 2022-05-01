@@ -20,11 +20,18 @@
 }
 
 .headerCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
 
   svg {
     margin-right: .5em;
+  }
   }
 }
